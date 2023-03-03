@@ -1,0 +1,31 @@
+---
+import { Icon } from 'astro-icon';
+
+interface Item {
+  title?: string;
+  description?: string;
+  icon?: string;
+}
+
+export interface Props {
+  items: Array<Item>;
+}
+
+const {
+  items = [],
+} = Astro.props;
+---
+
+<div class={`grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 my-12 dark:text-white items-stretch`}>
+  {
+    items.map(({ title, description, icon }) =>{ console.log( "icon:",icon); return  (
+      <div class="flex items-center bg-white shadow-lg rounded-l p-5">
+        <Icon name={icon} class=" w-28 h-28" />
+        <div class="flex flex-col">
+          <div class="ml-4 text-xl font-bold">{title}</div>
+          {description && <p class="text-muted dark:text-gray-400 text-md mt-4" set:html={description} />}
+        </div>
+      </div>
+    )})
+  }
+</div>
