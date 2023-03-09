@@ -10,6 +10,10 @@ export const headerData = {
       text: 'Flow',
       href: "/"
     },
+     {
+      text: 'Flow',
+      href: "/"
+    },
     {
       text: 'Services',
       href: '/',
