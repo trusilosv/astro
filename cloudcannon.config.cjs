@@ -28,7 +28,7 @@ module.exports = {
         buildUrl(filePath, parsed, "/[slug]/").replace(/^\/_/, "/"),
       output: true,
       icon: "wysiwyg",
-      _enabled_editors: ["visual"],
+      _enabled_editors: ["content", "visual"],
     },
       // schemas: {
       //   default: {
