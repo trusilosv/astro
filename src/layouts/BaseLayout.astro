@@ -44,7 +44,7 @@ const { language = 'en', textDirection = 'ltr' } = SITE;
   function onLiveEditorLoad(CloudCannon) {
   CloudCannon.enableEvents();
   document.addEventListener('cloudcannon:update', async function (e) {
-  console.log(e.detail.CloudCannon.value())
+  console.log( "cluod",e.detail.CloudCannon.value())
 });
 }
 </script>
