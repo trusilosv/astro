@@ -31,3 +31,20 @@ const { language = 'en', textDirection = 'ltr' } = SITE;
     </style>
   </body>
 </html>
+
+<script>
+  if (!window.CloudCannon) {
+    document.addEventListener('cloudcannon:load', function (e) {
+      onLiveEditorLoad(e.detail.CloudCannon);
+    });
+  } else {
+    onLiveEditorLoad(window.CloudCannon);
+  }
+
+  function onLiveEditorLoad(CloudCannon) {
+  CloudCannon.enableEvents();
+  document.addEventListener('cloudcannon:update', async function (e) {
+  console.log(e.detail.CloudCannon.value())
+});
+}
+</script>

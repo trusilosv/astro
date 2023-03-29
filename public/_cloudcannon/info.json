@@ -1,0 +1,117 @@
+{
+	"paths": {
+		"data": "data",
+		"static": "public",
+		"uploads": "public/uploads"
+	},
+	"collections_config": {
+		"data": {
+			"path": "data",
+			"disable_add": true,
+			"disable_add_folder": true
+		},
+		"posts": {
+			"path": "src/content/post",
+			"output": true,
+			"url": "/[...blog]/[category][..page]",
+			"_enabled_editors": [
+				"content",
+				"visual"
+			],
+			"add_options": [
+				{
+					"name": "Add New Post",
+					"schema": "default",
+					"icon": "post_add"
+				}
+			]
+		}
+	},
+	"output": "public",
+	"time": "2023-03-29T06:47:16.295Z",
+	"cloudcannon": {
+		"name": "cloudcannon-reader",
+		"version": "1.1.2"
+	},
+	"version": "0.0.3",
+	"data": {},
+	"collections": {
+		"posts": [
+			{
+				"publishDate": "2023-01-08T00:00:00.000Z",
+				"title": "AstroWind template in depth",
+				"description": "Lorem ipsum dolor sit amet",
+				"excerpt": "Ornare cum cursus laoreet sagittis nunc fusce posuere per euismod dis vehicula a, semper fames lacus maecenas",
+				"image": "~/assets/images/stickers.jpg",
+				"category": "Tutorials",
+				"tags": [
+					"astro",
+					"tailwind css",
+					"front-end"
+				],
+				"canonical": "https://astrowind.vercel.app/astrowind-template-in-depth",
+				"path": "src\\content\\post\\astrowind-template-in-depth.md",
+				"collection": "posts",
+				"url": "/[...blog]/[category][..page]"
+			},
+			{
+				"publishDate": "2023-01-12T00:00:00.000Z",
+				"title": "Get started with AstroWind to create a website using Astro and Tailwind CSS",
+				"description": "Lorem ipsum dolor sit amet",
+				"excerpt": "Sint sit cillum pariatur eiusmod nulla pariatur ipsum. Sit laborum anim qui mollit tempor pariatur.",
+				"image": "~/assets/images/do-more.jpg",
+				"category": "Tutorials",
+				"tags": [
+					"astro",
+					"tailwind css"
+				],
+				"canonical": "https://astrowind.vercel.app/get-started-website-with-astro-tailwind-css",
+				"path": "src\\content\\post\\get-started-website-with-astro-tailwind-css.md",
+				"collection": "posts",
+				"url": "/[...blog]/[category][..page]"
+			},
+			{
+				"publishDate": "2023-01-06T00:00:00.000Z",
+				"title": "How to customize AstroWind template to suit your branding",
+				"excerpt": "Sint sit cillum pariatur eiusmod nulla pariatur ipsum. Sit laborum anim qui mollit tempor pariatur.",
+				"image": "~/assets/images/colors.jpg",
+				"tags": [
+					"astro",
+					"tailwind css",
+					"theme"
+				],
+				"canonical": "https://astrowind.vercel.app/how-to-customize-astrowind-to-your-brand",
+				"path": "src\\content\\post\\how-to-customize-astrowind-to-your-brand.md",
+				"collection": "posts",
+				"url": "/[...blog]/[category][..page]"
+			},
+			{
+				"publishDate": "2023-01-09T00:00:00.000Z",
+				"title": "Useful tools and resources to create a professional website",
+				"excerpt": "Sint sit cillum pariatur eiusmod nulla pariatur ipsum. Sit laborum anim qui mollit tempor pariatur.",
+				"image": "~/assets/images/tools.jpg",
+				"tags": [
+					"front-end",
+					"tools",
+					"resources"
+				],
+				"path": "src\\content\\post\\useful-resources-to-create-websites.md",
+				"collection": "posts",
+				"url": "/[...blog]/[category][..page]"
+			}
+		],
+		"data": [
+			{
+				"site_title": "Urban Ltd",
+				"description": "Bringing the best experiences to the web for you and your clients.",
+				"contact_email_address": "contact@example.com",
+				"phone": "(03) 123 4567",
+				"address": "123 Example Street, Gooseburb, 9876, Ducktown, New Zealand",
+				"postal_address": "PO Box 123, Ducktown, New Zealand",
+				"path": "data\\data.json",
+				"collection": "data",
+				"url": ""
+			}
+		]
+	}
+}
