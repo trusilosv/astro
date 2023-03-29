@@ -4,7 +4,7 @@ title: Useful tools and resources to create a professional website
 excerpt: >-
   Sint sit cillum pariatur eiusmod nulla pariatur ipsum. Sit laborum anim qui
   mollit tempor pariatur.
-image: ~/assets/images/tools.jpg
+image: /uploads/priroda-gory-nebo-ozero-oblaka-81150-1920x1080.jpg
 tags:
   - front-end
   - tools
