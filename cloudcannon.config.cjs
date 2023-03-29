@@ -22,7 +22,7 @@ module.exports = {
           icon: "post_add",
         },
       ],
-    home: {
+    pages: {
       path: "src/content/pages",
       url: (filePath, parsed, { buildUrl }) =>
         buildUrl(filePath, parsed, "/[slug]/").replace(/^\/_/, "/"),
