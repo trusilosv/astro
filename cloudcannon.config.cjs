@@ -28,6 +28,13 @@ module.exports = {
       output: true,
       icon: "wysiwyg",
       _enabled_editors: ["content", "visual"],
+      add_options: [
+        {
+         
+          schema: "default",
+         
+        },
+      ],
     },
       // schemas: {
       //   default: {
