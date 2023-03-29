@@ -61,7 +61,6 @@ module.exports = {
       //     empty_type: "array",
       //   },
       // }
-    },
   //   pages: {
   //     path: "src/content/pages",
   //     url: (filePath, parsed, { buildUrl }) =>
