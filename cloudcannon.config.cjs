@@ -22,9 +22,10 @@ module.exports = {
           icon: "post_add",
         },
       ],
+    },
     pages: {
       path: "src/content/pages",
-      url: "/"
+      url: "/",
       output: true,
       icon: "wysiwyg",
       _enabled_editors: ["content", "visual"],
