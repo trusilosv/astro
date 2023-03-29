@@ -29,3 +29,20 @@ const { meta } = Astro.props;
     <Footer {...footerData} />
   </slot>
 </Layout>
+
+<script>
+  if (!window.CloudCannon) {
+    document.addEventListener('cloudcannon:load', function (e) {
+      onLiveEditorLoad(e.detail.CloudCannon);
+    });
+  } else {
+    onLiveEditorLoad(window.CloudCannon);
+  }
+
+  function onLiveEditorLoad(CloudCannon) {
+  CloudCannon.enableEvents();
+  document.addEventListener('cloudcannon:update', async function (e) {
+  console.log( "cluod",e.detail.CloudCannon.value())
+});
+}
+</script>

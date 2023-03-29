@@ -22,6 +22,14 @@ module.exports = {
           icon: "post_add",
         },
       ],
+    home: {
+      path: "src/content/pages",
+      url: (filePath, parsed, { buildUrl }) =>
+        buildUrl(filePath, parsed, "/[slug]/").replace(/^\/_/, "/"),
+      output: true,
+      icon: "wysiwyg",
+      _enabled_editors: ["visual"],
+    },
       // schemas: {
       //   default: {
       //     name: "New Post",

@@ -12,12 +12,14 @@ import LatestPosts from '~/components/blog/LatestPosts.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
 import Stats from '~/components/widgets/Stats.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
+import { getEntryBySlug } from 'astro:content';
 
 const meta = {
   title: SITE.title,
   description: SITE.description,
   dontUseTitleTemplate: true,
 };
+const { data } = await getEntryBySlug("pages", "index");
 ---
 
 <Layout {meta}>
@@ -29,8 +31,8 @@ const meta = {
     image={{ src: import('~/assets/images/hero.png'), alt: 'AstroWind Hero Image' }}
   >
     <Fragment slot="title">
-      Free template for <span class="hidden lg:inline">create your website <br class="2xl:hidden"/> with</span>
-      <span class="text-accent dark:text-white highlight"> Astro 2.0</span> + Tailwind CSS
+      { data.text1} <span class="hidden lg:inline"> { data.text2} <br class="2xl:hidden"/> with</span>
+      <span class="text-accent dark:text-white highlight">  { data.text3}</span>  { data.text4}
     </Fragment>
 
     <Fragment slot="subtitle">
