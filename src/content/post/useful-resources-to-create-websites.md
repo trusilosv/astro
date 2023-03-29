@@ -1,15 +1,16 @@
 ---
 publishDate: 2023-01-09T00:00:00Z
 title: Useful tools and resources to create a professional website
-excerpt: Sint sit cillum pariatur eiusmod nulla pariatur ipsum. Sit laborum anim qui mollit tempor pariatur.
+excerpt: >-
+  Sint sit cillum pariatur eiusmod nulla pariatur ipsum. Sit laborum anim qui
+  mollit tempor pariatur.
 image: ~/assets/images/tools.jpg
 tags:
   - front-end
   - tools
   - resources
 ---
-
-## Magna nunc senectus torquent per fusce sapien ligula tempus cra
+## Magna nunc senectu torquent per fusce sapien ligula tempus cra
 
 Lorem ipsum dolor sit amet consectetur adipiscing, elit fusce imperdiet gravida velit massa, ligula aenean suscipit sociis lacinia. Sapien scelerisque rutrum sem accumsan orci imperdiet aliquam inceptos aliquet tempus ornare, netus nostra nam nunc platea pulvinar urna et suscipit pellentesque, aenean congue sociis non tellus quis proin etiam venenatis pretium. Nibh senectus lacinia volutpat nostra taciti ac posuere, dictum ultricies dictumst luctus in vehicula, mus molestie venenatis penatibus ridiculus elementum. Phasellus sollicitudin dignissim parturient tempor cubilia erat massa eleifend dapibus, condimentum cras tortor eu sem dictumst non. Faucibus neque est malesuada nostra luctus maecenas at condimentum, arcu eros vulputate curabitur blandit mollis volutpat, lectus leo dictumst duis semper tempor hendrerit. Egestas scelerisque fusce torquent cubilia consequat conubia lacus et mollis, condimentum taciti elementum sapien risus vulputate est.
 
@@ -17,13 +18,13 @@ Tristique eleifend enim praesent mollis sem leo, molestie dictum penatibus sodal
 
 ## Magna lacus tortor luctus platea co
 
-- Luctus molestie taciti aliquam dictumst imperdiet, donec torquent nisi.
+* Luctus molestie taciti aliquam dictumst imperdiet, donec torquent nisi.
 
-- Montes cursus habitant risus platea senectus, lectus sagittis mi.
+* Montes cursus habitant risus platea senectus, lectus sagittis mi.
 
-- Eleifend facilisi quam ultricies, accumsan aliquet euismod velit, sem tortor.
+* Eleifend facilisi quam ultricies, accumsan aliquet euismod velit, sem tortor.
 
-- Senectus nisl potenti congue sociosqu at, porttitor habitant vivamus.
+* Senectus nisl potenti congue sociosqu at, porttitor habitant vivamus.
 
 Nostra dictum porta consequat quisque diam nisl iaculis velit varius, placerat curabitur risus commodo condimentum morbi eros dictumst phasellus, tempor duis libero ultrices est rhoncus mattis nam. Quisque lectus massa lobortis nulla enim, praesent eu ut elementum. Felis placerat nibh donec erat platea rutrum taciti cursus, elementum metus semper feugiat risus tellus nulla, aliquam hendrerit faucibus inceptos commodo justo porta.
 
