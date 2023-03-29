@@ -14,7 +14,7 @@ module.exports = {
       path: "src/content/post",
       output: true,
       url: "/[...blog]/[..page]",
-      _enabled_editors: [ "visual"],
+      _enabled_editors: ["content", "visual"],
       add_options: [
         {
           name: "Add New Post",
