@@ -28,7 +28,7 @@ module.exports = {
       url: "/",
       output: true,
       icon: "wysiwyg",
-      _enabled_editors: ["content", "visual"],
+      _enabled_editors: [ "visual"],
       add_options: [
         {
          
