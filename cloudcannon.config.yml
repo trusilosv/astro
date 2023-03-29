@@ -4,7 +4,13 @@
 # Collections are related sets of content files, typically grouped by folder.
 # Here you can define your collections, as well as any
 # CloudCannon configuration specific to those collections.
-collections_config: {}
+collections_config: {
+  data: {
+      path: "data",
+      disable_add: true,
+      disable_add_folder: true,
+    },
+}
 
 # Control which collections are displayed in the CloudCannon site navigation,
 # and how those collections are grouped.
