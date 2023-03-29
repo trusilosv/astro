@@ -167,18 +167,18 @@ module.exports = {
   //     type: "checkbox",
   //     comment:
   //       "When selected this removes the page from your sitemap and adds the noindex robots meta tag",
-    },
+    // },
   },
-  _structures: {
-    features: {
-      values: [
-        {
-          value: {
-            item: null,
-            isActive: null,
-          },
-        },
-      ],
-    },
-  },
+  // _structures: {
+  //   features: {
+  //     values: [
+  //       {
+  //         value: {
+  //           item: null,
+  //           isActive: null,
+  //         },
+  //       },
+  //     ],
+  //   },
+  // },
 };
