@@ -70,6 +70,15 @@ module.exports = {
         },
       ],
     },
+    "generator": {
+    "metadata": {
+      "markdown": "markdown-it",
+      "markdown-it": {
+        "html": true,
+        "linkify": true
+      }
+    }
+  }
       // schemas: {
       //   default: {
       //     name: "New Post",
