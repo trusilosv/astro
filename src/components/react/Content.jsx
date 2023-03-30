@@ -14,12 +14,11 @@ export default function Content(props) {
   const loadNewPropsFromCloudCannon = async (CloudCannon) => {
     try {
       const latestValue = await CloudCannon.value(
-        {keepMarkdownAsHTML: false,
-			  preferBlobs: true}
+        {preferBlobs: true}
 			 );
       console.log("latestValue ", latestValue)
       console.log("latestValue.body ", latestValue.body)
-      latestValue.body && setContent(latestValue.body ?? []);
+      latestValue.description && setContent(latestValue.description);
     } catch (fetchError) {
       console.warn("Failed to fetch latest page props", fetchError);
     }
