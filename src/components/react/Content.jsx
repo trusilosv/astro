@@ -43,7 +43,7 @@ export default function Content(props) {
   return (
     <div
       dangerouslySetInnerHTML={{
-        __html: md.render(content),
+        __html: md.render(content || "error"),
       }}
     />
   );
