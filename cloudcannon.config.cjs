@@ -26,6 +26,11 @@ module.exports = {
       disable_add_folder: true,
     },
     posts: {
+      _inputs: {
+        details: {
+          type: "html"
+        }
+      }
       path: "src/content/post",
       url: "/[slug]",
       parser: 'front-matter',
