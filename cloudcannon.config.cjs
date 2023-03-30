@@ -56,7 +56,7 @@ module.exports = {
           "snippet": true
         }
       },
-      _enabled_editors: ["content", "visual"],
+      _enabled_editors: ["visual", "content"],
       add_options: [
         {
           name: "Add New Post",

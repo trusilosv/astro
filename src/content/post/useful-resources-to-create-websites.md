@@ -16,7 +16,7 @@ tags:
 
 *
 
-<p class="align-right">Consequat mi risus vulputate ullamssss corper sociosqu pretium molestie cursus, parturient viverra non tempor tellus convall<img src="/src/assets/images/calendar.svg" width="48" height="48" /></p>
+<p class="align-right">Consequat mi risus vulputate ullamssss corper sociosqu pretium molestie cursus, parturient viverra non tempor tellus convall<img width="48" height="48" src="/src/assets/images/calendar.svg" /></p>
 
 Posuere nunc mus curabitur condimentum lobortis euismod donec tincidunt ridiculus, tristique senectus cum taciti quam blandit leo malesuada, sociis nullam cras litora sem laoreet sed nec.
 
