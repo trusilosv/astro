@@ -8,6 +8,12 @@ module.exports = {
       }
     }
   },
+  
+  _inputs: {
+    description: {
+      type: "html"
+    }
+  }
   paths: {
     data: "data",
     static: "public",
