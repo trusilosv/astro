@@ -1,7 +1,8 @@
 ---
 publishDate: 2023-01-12T00:00:00Z
 title: Get started with AstroWind to create a website using Astro and Tailwind CSS
-description: Lorem ipsum dolor sit amet
+description: | 
+ #### dfasd 
 excerpt: >-
   Sint sit cillum pariatur eiusmod nulla pariatur ipsum. Sit laborum anim qui
   mollit tempor pariatur.
