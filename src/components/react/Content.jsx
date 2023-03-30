@@ -27,8 +27,13 @@ export default function Content(props) {
 
   useEffect(() => {
     const loadListener = (e) => onCloudCannonLoad(e.detail.CloudCannon);
-    const updateListener = (e) =>
+    const updateListener = (e) => {
+      console.log(" e e eee", e);
+      console.log("e.detail", e.detail);
+      console.log("e.detail.CloudCannon",e.detail.CloudCannon)
       loadNewPropsFromCloudCannon(e.detail.CloudCannon);
+      
+    }
     document.addEventListener("cloudcannon:load", loadListener);
     document.addEventListener("cloudcannon:update", updateListener);
     if (window.CloudCannon) {

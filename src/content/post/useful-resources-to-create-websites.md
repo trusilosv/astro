@@ -1,14 +1,16 @@
 ---
 publishDate: 2023-01-09T00:00:00Z
 title: Useful tool
-excerpt: Siod nulla pariatur ipsum. Sit laborum anim qui mollit tempor pariatur.
+excerpt: Siod nulSit laborum anim qui mollit tempor pariatur.
 image: /src/assets/images/priroda-gory-nebo-ozero-oblaka-81150-1920x1080.jpg
 tags:
+  - ''
   - front-end
   - tools
   - resources
+  - kll
 ---
-### <s><u>Magna nunc senectu torquent per fusce sapien ligula tempu</u>s&nbsp;</s>
+###
 
 <table><tbody><tr><td> </td><td> </td><td>ds fs</td></tr><tr><td> </td><td> </td><td>&nbsp;sdfsdfs</td></tr></tbody></table>
 
