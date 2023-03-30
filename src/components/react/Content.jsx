@@ -30,7 +30,7 @@ export default function Content(props) {
     const updateListener = (e) => {
       console.log(" e e eee", e);
       console.log("e.detail", e.detail);
-      console.log("e.detail.CloudCannon",e.detail.CloudCannon)
+      console.log("e.detail.CloudCannon",e.detail.CloudCannon);
       loadNewPropsFromCloudCannon(e.detail.CloudCannon);
       
     }
