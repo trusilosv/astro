@@ -4,11 +4,9 @@ title: Useful tool
 excerpt: Siod nulSit laborum anim qui mollit tempor pariatur.
 image: /src/assets/images/priroda-gory-nebo-ozero-oblaka-81150-1920x1080.jpg
 tags:
-  - ''
   - front-end
   - tools
   - resources
-  - kll
 ---
 ###
 
