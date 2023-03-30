@@ -8,11 +8,15 @@ tags:
   - tools
   - resources
 ---
-### Magna nunc senectu torquent per fusce sapien ligula tempus&nbsp;
+### <s><u>Magna nunc senectu torquent per fusce sapien ligula tempu</u>s&nbsp;</s>
 
-Tristiqu eleifend enim praesent mollis sem leo, molestie dictum penatibus sodales consequat ligula nulla, platea feugiat aptent sapien turpis. Mollis mus ac taciti maecenas pretium hendrt proin accumsan, mattis dictumst netus nunc facilisi morbi cursus
+<table><tbody><tr><td> </td><td> </td><td>ds fs</td></tr><tr><td> </td><td> </td><td>&nbsp;sdfsdfs</td></tr></tbody></table>
 
-Consequat mi risus vulputate ullamssss corper sociosqu pretium molestie cursus, parturient viverra non tempor tellus convallis vitae eleifend mus, bibendum pellentesque imperdiet vivamus nunc phasellus iaculis. Volutpat est ac dictumst eleifend maecenas torquent quam hac, mollis aliquam mattis euismod ornare risus fringilla proin nisi, sem fermentum primis ultrices varius etiam id.
+---
+
+*
+
+<p class="align-right">Consequat mi risus vulputate ullamssss corper sociosqu pretium molestie cursus, parturient viverra non tempor tellus convall<img src="/src/assets/images/calendar.svg" width="48" height="48" /></p>
 
 Posuere nunc mus curabitur condimentum lobortis euismod donec tincidunt ridiculus, tristique senectus cum taciti quam blandit leo malesuada, sociis nullam cras litora sem laoreet sed nec.
 
