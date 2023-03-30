@@ -21,7 +21,6 @@ module.exports = {
     },
     posts: {
       path: "src/content/post",
-      output: true,
       url: "/[slug]",
       _editables: {
         "content": {
