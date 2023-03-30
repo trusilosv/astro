@@ -30,7 +30,7 @@ module.exports = {
         details: {
           type: "html"
         }
-      }
+      },
       path: "src/content/post",
       url: "/[slug]",
       parser: 'front-matter',
