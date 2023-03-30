@@ -6,11 +6,15 @@ excerpt: >-
   Sint sit cillum pariatur eiusmod nulla pariatur ipsum. Sit laborum anim qui
   mollit tempor pariatur.
 image: /uploads/priroda-gory-nebo-ozero-oblaka-81150-1920x1080.jpg
-category: Tutorials
+category: utorials
 tags:
   - astro
   - tailwind css
 canonical: https://astrowind.vercel.app/get-started-website-with-astro-tailwind-css
+content: |
+  1
+
+  2
 ---
 ## No torquent consequat volutpat aliquet neque
 

@@ -10,6 +10,10 @@ tags:
   - tailwind css
   - front-end
 canonical: https://astrowind.vercel.app/astrowind-template-in-depth
+content: |
+  1
+
+  2
 ---
 
 ## Dictum integer fusce ac ridiculus et odio sollicitudin diam at
