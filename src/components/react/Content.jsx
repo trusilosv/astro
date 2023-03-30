@@ -13,7 +13,10 @@ export default function Content(props) {
 
   const loadNewPropsFromCloudCannon = async (CloudCannon) => {
     try {
-      const latestValue = await CloudCannon.value();
+      const latestValue = await CloudCannon.value(
+        keepMarkdownAsHTML: false,
+			  preferBlobs: true
+			 );
       console.log("latestValue ", latestValue)
       console.log("latestValue.body ", latestValue.body)
       latestValue.body && setContent(latestValue.body ?? []);
