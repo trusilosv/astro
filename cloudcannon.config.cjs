@@ -1,4 +1,13 @@
 module.exports = {
+  generator: {
+    "metadata": {
+      "markdown": "markdown-it",
+      "markdown-it": {
+        "html": true,
+        "linkify": true
+      }
+    }
+  },
   paths: {
     data: "data",
     static: "public",
@@ -71,13 +80,4 @@ module.exports = {
       ],
     },
   },
-  generator: {
-    "metadata": {
-      "markdown": "markdown-it",
-      "markdown-it": {
-        "html": true,
-        "linkify": true
-      }
-    }
-  }
 };
