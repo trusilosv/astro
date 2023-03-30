@@ -14,12 +14,12 @@ module.exports = {
       path: "src/content/post",
       output: true,
       url: "/[slug]",
-      parser: json,
+      parser: "json",
       _editables: {
         "content": {
           "blockquote": true,
           "bold": true,
-          "format": "p h1 h2 h3 h4 h5 h6 pre address div",
+          "format": "p h1 h2",
           "italic": true,
           "strike": true,
           "subscript": true,
