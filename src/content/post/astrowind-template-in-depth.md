@@ -1,7 +1,7 @@
 ---
 publishDate: 2023-01-08T00:00:00Z
 title: AstroWind template in depth
-description: Lorem ipsum dolor sit amet
+description: sdsdsd
 excerpt: >-
   Ornare cum cursus laoreet sagittis nunc fusce posuere per euismod dis vehicula
   a, semper fames lacus maecenas
@@ -12,11 +12,7 @@ tags:
   - tailwind css
   - front-end
 canonical: https://astrowind.vercel.app/astrowind-template-in-depth
-content: >-
-  ##### H5
-description: >-
-  ##### H5
-
+content: '##### H5'
 ---
 ## Dictum integer fusce ac ridiculus et odio sollicitudin diam at
 
