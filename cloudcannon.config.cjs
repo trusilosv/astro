@@ -22,6 +22,7 @@ module.exports = {
     posts: {
       path: "src/content/post",
       url: "/[slug]",
+      output: true,
       _enabled_editors: ["visual", "content"],
       add_options: [
         {
