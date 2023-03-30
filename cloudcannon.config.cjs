@@ -22,39 +22,6 @@ module.exports = {
     posts: {
       path: "src/content/post",
       url: "/[slug]",
-      _editables: {
-        "content": {
-          "blockquote": true,
-          "bold": true,
-          "format": "p h1 h2",
-          "italic": true,
-          "strike": true,
-          "subscript": true,
-          "superscript": true,
-          "underline": true,
-          "link": true,
-          "bulletedlist": true,
-          "indent": true,
-          "numberedlist": true,
-          "outdent": true,
-          "code": true,
-          "embed": true,
-          "horizontalrule": true,
-          "image": true,
-          "table": true,
-          "undo": true,
-          "redo": true,
-          "removeformat": true,
-          "copyformatting": true,
-          "styles": "/css/editor.css",
-          "left": "align-left",
-          "center": "align-center",
-          "right": "align-right",
-          "justify": "align-justify",
-          "image_size_attributes": true,
-          "snippet": true
-        }
-      },
       _enabled_editors: ["visual", "content"],
       add_options: [
         {
