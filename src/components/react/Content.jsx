@@ -18,7 +18,7 @@ export default function Content(props) {
       });
       console.log("latestValue ", latestValue)
       console.log("latestValue.body ", latestValue.body)
-      setContent(latestValue.body ?? []);
+      latestValue.body && setContent(latestValue.body ?? []);
     } catch (fetchError) {
       console.warn("Failed to fetch latest page props", fetchError);
     }
