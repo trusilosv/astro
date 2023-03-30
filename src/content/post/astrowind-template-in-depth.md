@@ -13,9 +13,7 @@ tags:
   - front-end
 canonical: https://astrowind.vercel.app/astrowind-template-in-depth
 content: >-
-  <ul><li>Fees must be paid at or before the date specified in your          
-  payment plan.</li> <li>Failure to pay account fees may result in          
-  restricted or suspended access to your Sendit account.</li></ul>
+  ##### H5
 ---
 ## Dictum integer fusce ac ridiculus et odio sollicitudin diam at
 
