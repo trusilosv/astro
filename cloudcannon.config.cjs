@@ -14,7 +14,7 @@ module.exports = {
       path: "src/content/post",
       output: true,
       url: "/[slug]",
-      _editables.content
+      _editables.content,
       _enabled_editors: ["content", "visual"],
       add_options: [
         {
