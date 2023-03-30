@@ -14,13 +14,9 @@ tags:
 canonical: https://astrowind.vercel.app/astrowind-template-in-depth
 content: >-
   ##### H5
-description: |
+description: >-
   ##### H5
 
-  sadsd
-  
-  sddsd
----
 ---
 ## Dictum integer fusce ac ridiculus et odio sollicitudin diam at
 
