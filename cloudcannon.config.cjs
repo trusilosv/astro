@@ -14,6 +14,7 @@ module.exports = {
       path: "src/content/post",
       output: true,
       url: "/[slug]",
+      parser: json,
       _editables: {
         "content": {
           "blockquote": true,
