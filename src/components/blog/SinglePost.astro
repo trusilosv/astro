@@ -9,6 +9,7 @@ import { getPermalink } from '~/utils/permalinks';
 import { getFormattedDate } from '~/utils/utils';
 
 import type { Post } from '~/types';
+import Content from '../react/Content';
 
 export interface Props {
   post: Post;
@@ -78,10 +79,7 @@ const { post, url } = Astro.props;
     >
       {
         post.Content ? (
-          <>
-            {/* @ts-ignore */}
-            <post.Content />
-          </>
+          <Content client:load content={post.body || " ds"}/>
         ) : (
           <Fragment set:html={post.content} />
         )

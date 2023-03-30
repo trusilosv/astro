@@ -12,7 +12,7 @@ export interface Post {
   permalink?: string;
 
   draft?: boolean;
-
+  body: string;
   excerpt?: string;
   category?: string;
   tags?: Array<string>;

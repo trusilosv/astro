@@ -29,7 +29,7 @@ const generatePermalink = async ({ id, slug, publishDate, category }) => {
 };
 
 const getNormalizedPost = async (post: CollectionEntry<'post'>): Promise<Post> => {
-  const { id, slug: rawSlug = '', data } = post;
+  const { id, slug: rawSlug = '', data, body } = post;
   const { Content, remarkPluginFrontmatter } = await post.render();
 
   const {
@@ -48,7 +48,7 @@ const getNormalizedPost = async (post: CollectionEntry<'post'>): Promise<Post> =
   return {
     id: id,
     slug: slug,
-
+    body: body,
     publishDate: publishDate,
     category: category,
     tags: tags,
