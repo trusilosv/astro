@@ -10,7 +10,7 @@ tags:
   - tailwind css
   - front-end
 canonical: https://astrowind.vercel.app/astrowind-template-in-depth
-content: |
+content: >-
   1
 
   2

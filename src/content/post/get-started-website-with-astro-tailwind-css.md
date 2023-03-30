@@ -11,10 +11,7 @@ tags:
   - astro
   - tailwind css
 canonical: https://astrowind.vercel.app/get-started-website-with-astro-tailwind-css
-content: |
-  1
-
-  2
+content:
 ---
 ## No torquent consequat volutpat aliquet neque
 
