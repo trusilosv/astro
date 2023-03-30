@@ -70,7 +70,7 @@ module.exports = {
         },
       ],
     },
-    "generator": {
+  generator: {
     "metadata": {
       "markdown": "markdown-it",
       "markdown-it": {
